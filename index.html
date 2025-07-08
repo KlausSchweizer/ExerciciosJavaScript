@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Lista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercícios interativos com HTML e JavaScript</h1>
+
+    <div class="exercicio">
+        <h2>1. Soma de dois números</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="somar();">Somar</button>
+        <p id="res1"></p>
+    </div>
+    
+    <div class="exercicio">
+        <h2>2. Verificar idade</h2>
+        <input type="number" id="idade" placeholder="Idade">
+        <button onclick="verificarIdade();">Verificar idade</button>
+        <p id="res2"></p>
+    </div>
+    
+    <div class="exercicio">
+        <h2>3. Contar caracteres</h2>
+        <input type="text" id="textoParaConverter" placeholder="Texto">
+        <button onclick="contarCaracteres();">Contar Caracteres</button>
+        <p id="res3"></p>
+    </div>
+    
+    <div class="exercicio">
+        <h2>4. Verificar Par ou Ímpar</h2>
+        <input type="number" id="numeroParidade" placeholder="Número para verificar">
+        <button onclick="verificarParidade()">Verificar Paridade</button>
+        <p id="res4"></p>
+    </div>
+    
+    <div class="exercicio">
+        <h2>5. Nome em caixa alta</h2>
+        <input type="text" id="textoParaUpper" placeholder="Texto para caixa alta">
+        <button onclick="converterCaixaAlta()">Converter</button>
+        <p id="res5"></p>
+    </div>
+    
+    <div class="exercicio">
+        <h2>6. Maior de dois números</h2>
+        <input type="number" id="numero1" placeholder="Número 1">
+        <input type="number" id="numero2" placeholder="Número 2">
+        <button onclick="verificarMaior()">Verificar Maior Número</button>
+        <p id="res6"></p>
+    </div>
+    
+    <div class="exercicio">
+        <h2>7. Tabuada</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="tabuada()">Tabuada</button>
+        <p id="res7"></p>
+    </div>
+    
+    <div class="exercicio">
+        <h2>8. Contador de 1 a 10</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="contarAte10()">Contar até 10</button>
+        <p id="res8"></p>
+    </div>
+    
+    <div class="exercicio">
+        <h2>9. Média de notas</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="tirarMedia()">Média</button>
+        <p id="res9"></p>
+    </div>
+    
+    <div class="exercicio">
+        <h2>10. Conversor de temperatura</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="converterTemperatura()">Converter Temperatura</button>
+        <p id="res10"></p>
+    </div>
+    
+    <div class="exercicio">
+        <h2>11. Dia da semana</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="verDiaSemana()">Ver Dia da Semana</button>
+        <p id="res11"></p>
+    </div>  
+
+    <div class="exercicio">
+        <h2>12. Senha simples</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="senha()">Senha</button>
+        <p id="res12"></p>
+    </div>
+  
+    <div class="exercicio">
+        <h2>13. Contagem regressiva</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="contarRegressivo()">Contagem regressiva</button>
+        <p id="res13"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
